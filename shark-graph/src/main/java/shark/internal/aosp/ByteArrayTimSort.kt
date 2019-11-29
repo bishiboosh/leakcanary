@@ -54,7 +54,8 @@ fixed number of bytes N. Each entry is compared by a custom comparator.
  * sort, assuming the input array is large enough to warrant the full-blown
  * TimSort. Small arrays are sorted in place, using a binary insertion sort.
  */
-@Suppress("ComplexMethod", "ComplexCondition", "LongMethod", "LongParameterList")
+@Suppress("ComplexMethod", "ComplexCondition", "LongMethod",
+    "LongParameterList", "MandatoryBracesIfStatements")
 internal class ByteArrayTimSort
 /**
  * Creates a TimSort instance to maintain the state of an ongoing sort.

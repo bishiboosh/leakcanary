@@ -433,11 +433,14 @@ style:
   DataClassShouldBeImmutable:
     active: false
   EqualsNullCall:
-    active: false
+    #LeakCanary - enabled
+    active: true
   EqualsOnSignatureLine:
-    active: false
+    #LeakCanary - enabled
+    active: true
   ExplicitItLambdaParameter:
-    active: false
+    #LeakCanary - enabled
+    active: true
   ExpressionBodySyntax:
     active: false
     includeLineWrapping: false
@@ -448,7 +451,8 @@ style:
     active: false
     imports: ''
   ForbiddenVoid:
-    active: false
+    #LeakCanary - enabled
+    active: true
     ignoreOverridden: false
   FunctionOnlyReturningConstant:
     active: false
@@ -473,7 +477,8 @@ style:
     ignoreEnums: false
     ignoreRanges: false
   MandatoryBracesIfStatements:
-    active: false
+    #LeakCanary - enabled
+    active: true
   MaxLineLength:
     #LeakCanary - increased from 120 to 150
     active: true
